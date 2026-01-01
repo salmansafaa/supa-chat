@@ -1,8 +1,11 @@
 ## Student Details
 
 Name: MUHAMMAD SALMAN AL FARISI BIN AB AZIZ
+
 Student ID: 2024288464
+
 Group: T5CDCS2703B
+
 Lecturer: SIR MUHAMMAD ATIF RAMLAN
 
 ## project background
@@ -27,9 +30,9 @@ this project highlight efficency of backend development and a robust frontend fr
 - Challanges:
 Route Protection: One challenge involved securing the chat interface. We implemented an Angular CanActivate guard that checks the Supabase session state, ensuring unauthenticated users are redirected to the login page.
 
-Data Integrity: To prevent unauthorized message manipulation, we configured RLS policies. The solution involved writing SQL policies that verify the auth.uid() against the sender_id column in the chat table, effectively delegating security to the database.
+- Data Integrity: To prevent unauthorized message manipulation, we configured RLS policies. The solution involved writing SQL policies that verify the auth.uid() against the sender_id column in the chat table, effectively delegating security to the database.
 
-Outdated Tutorial : the Angular and Supabase used in tutorial are from a year ago. the change in angular version (use 17 in tutorial, current version is 24) and Supabase UI design create confusion.
+- Outdated Tutorial : the Angular and Supabase used in tutorial are from a year ago. the change in angular version (use 17 in tutorial, current version is 24) and Supabase UI design create confusion.
 
 Overall, the project show Angular service and signal give a better alternate to traditional lifecycle hooks involving state menangement. It also demonstrated Supabase as a good pratice for user authenticationa and data security.
 
